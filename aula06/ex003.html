@@ -14,7 +14,7 @@
             color: yellow;
         }
         .simbol{
-            background-color: yellow;
+            background-color: yellow; /*Comentário em CSS*/
             width: 110px;
             text-align: center;
             border: 4px solid black;
@@ -28,18 +28,16 @@
 </head>
 <body>
     <h1>Olá Mundo!</h1>
-    <p>Já me livrei da maldição.</p>
+    <p>Já me livrei da maldição.</p> <!--Comentário em HTML-->
     <p>Agora vamos para o conteúdo de JavaScript</p>
     <p class="simbol"><strong>.</strong>JS</p>
     <script>
-        //isso é um comentário em linha única
-        /*isso
-        é um
-        comentário
-        em linhas*/
-        window.alert("Minha primeira mensagem!")
-        window.confirm("Está gostando de JS?")
-        window.prompt("Qual é o seu nome?")
+       var n1 = Number(window.prompt("Digite um número "))
+       var n2 = Number(window.prompt("Digite outro número "))
+       var soma = n1 + n2
+       window.alert(`A soma entre ${n1} e ${n2} é igual a ${soma}!!!`)
+       //number + number o sinal de + serve para somar
+       //string + string o sinal de + serve para concatenar
     </script>
 </body>
 </html>

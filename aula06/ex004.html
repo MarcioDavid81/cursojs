@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0 auto;
+            background-color: rgba(137, 43, 226, 0.325);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            size: 2rem;
+        }
+        .script{
+            display: block;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="script">
+        <script>
+            var nome = prompt('Qual é o seu nome?')
+                document.write(`Olá, ${nome}. Seu nome possui ${nome.length} letras. Estou correto?`)
+        </script>
+    </div>
+</body>
+</html>
